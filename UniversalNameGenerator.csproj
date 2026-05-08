@@ -9,7 +9,7 @@
   <ItemGroup>
     <PackageReference Include="NuciCLI" Version="3.0.1" />
     <PackageReference Include="NuciCLI.Menus" Version="1.5.5" />
-    <PackageReference Include="NuciDAL" Version="3.0.1" />
+    <PackageReference Include="NuciDAL" Version="3.1.0" />
     <PackageReference Include="NuciExtensions" Version="5.3.1" />
     <PackageReference Include="NuciGenerators.Text" Version="1.0.1" />
     <PackageReference Include="NuciGenerators.Text.MarkovChain" Version="1.0.1" />
