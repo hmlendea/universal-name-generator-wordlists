@@ -443,6 +443,13 @@
         <Schema>{markov,4,16,real/romanian/minerals/minerals}</Schema>
     </GenerationSchemaEntity>
     <GenerationSchemaEntity>
+        <Id>romanian-phone-numbers</Id>
+        <Name>Romanian phone numbers</Name>
+        <Category>Romanian</Category>
+        <FilterlistPath>real/romanian/phone-numbers/filters</FilterlistPath>
+        <Schema>{markov,17,17,real/romanian/phone-numbers/phone-numbers}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
         <Id>romanian-plants</Id>
         <Name>Romanian plant names</Name>
         <Category>Romanian</Category>
