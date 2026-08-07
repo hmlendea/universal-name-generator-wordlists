@@ -17,7 +17,7 @@ It is an assets-only repository. No application code is included here.
 - [Roadmap](#-roadmap)
 - [Contributing](#-contributing)
 - [Related Projects](#-related-projects)
-- [Support](#-support)
+- [Helping out](#-helping-out)
 - [License](#-license)
 
 ## ✨ Capabilities
@@ -84,7 +84,6 @@ When doing so, please:
 - Properly test all changes
 
 Contributions are welcome, especially:
-
 - new language datasets
 - new fictional naming sets
 - improved wordlist quality
@@ -97,7 +96,7 @@ See [ROADMAP.md](./ROADMAP.md) for planned work and forthcoming changes.
 - [Universal Name Generator API](https://github.com/hmlendea/universal-name-generator-api): The API that consumes these datasets to generate names
 - [Universal Name Generator](https://github.com/hmlendea/universal-name-generator): The main project ecosystem entry point
 
-## 💝 Support
+## 💝 Helping out
 
 Discovered a problem or have a suggestion? [Open an issue](https://github.com/hmlendea/universal-name-generator-wordlists/issues)!
 

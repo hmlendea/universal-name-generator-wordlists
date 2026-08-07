@@ -937,4 +937,11 @@
         <Schema>{markov,4,16,usernames/aur|usernames/bitwarden-forum|usernames/erepublik|usernames/gamingonlinux|usernames/github|usernames/gitlab|usernames/hassio-community|usernames/imgflip|usernames/instagram|usernames/irc_rizon|usernames/mastodon|usernames/minecraft|usernames/nexusmods|usernames/reddit|usernames/reddit_dump|usernames/runescape|usernames/spigotmc|usernames/steam|usernames/twitter|usernames/yohoho-puzzle-pirates|usernames/youtube}</Schema>
         <WordCase>Original</WordCase>
     </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>fantasy-dragons</Id>
+        <Name>Dragons</Name>
+        <Category>Dragons</Category>
+        <Schema>{randomiser, ,4,32,a-song-of-ice-and-fire/english/dragons|a-song-of-ice-and-fire/valyrian/dragons}</Schema>
+        <WordCase>Original</WordCase>
+    </GenerationSchemaEntity>
 </ArrayOfGenerationSchemaEntity>
