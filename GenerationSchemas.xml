@@ -1,0 +1,940 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGenerationSchemaEntity xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <GenerationSchemaEntity>
+        <Id>arabic-persons-male</Id>
+        <Name>Arabic male persons</Name>
+        <Category>Arabic</Category>
+        <Schema>{randomiser, ,4,32,real/arabic/persons/males|real/arabic/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>arabic-persons-female</Id>
+        <Name>Arabic female persons</Name>
+        <Category>Arabic</Category>
+        <Schema>{randomiser, ,4,32,real/arabic/persons/females|real/arabic/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>arabic-toponyms</Id>
+        <Name>Arabic toponyms</Name>
+        <Category>Arabic</Category>
+        <Schema>{markov,4,24,real/arabic/locations/toponyms}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>asgarnian-persons-female</Id>
+        <Name>Asgarnian female persons</Name>
+        <Category>RuneScape</Category>
+        <Schema>{randomiser, ,4,32,runescape/human/asgarnian/persons/females|runescape/human/asgarnian/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>asgarnian-persons-male</Id>
+        <Name>Asgarnian male persons</Name>
+        <Category>RuneScape</Category>
+        <Schema>{randomiser, ,4,32,runescape/human/asgarnian/persons/males|runescape/human/asgarnian/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>asian-settlements</Id>
+        <Name>Asian settlement names</Name>
+        <Category>Asian</Category>
+        <Schema>{randomiser,,4,24,real/asian/locations/cities/bases|real/asian/locations/cities/endings}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>chinese-persons-male</Id>
+        <Name>Chinese male persons</Name>
+        <Category>Chinese</Category>
+        <Schema>{randomiser, ,4,32,real/chinese/persons/males|real/chinese/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>chinese-persons-female</Id>
+        <Name>Chinese female persons</Name>
+        <Category>Chinese</Category>
+        <Schema>{randomiser, ,4,32,real/chinese/persons/females|real/chinese/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>chinese-toponyms</Id>
+        <Name>Chinese toponyms</Name>
+        <Category>Chinese</Category>
+        <Schema>{markov,4,24,real/chinese/locations/toponyms}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>venetian-toponyms</Id>
+        <Name>Venetian toponyms</Name>
+        <Category>Venetian</Category>
+        <Schema>{markov,4,24,real/venetian/locations/toponyms}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>welsh-persons-female</Id>
+        <Name>Welsh female persons</Name>
+        <Category>Welsh</Category>
+        <Schema>{randomiser, ,4,32,real/welsh/persons/females|real/welsh/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>welsh-persons-male</Id>
+        <Name>Welsh male persons</Name>
+        <Category>Welsh</Category>
+        <Schema>{randomiser, ,4,32,real/welsh/persons/males|real/welsh/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>welsh-toponyms</Id>
+        <Name>Welsh toponyms</Name>
+        <Category>Welsh</Category>
+        <Schema>{markov,4,24,real/welsh/locations/toponyms}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>german-persons-male</Id>
+        <Name>German male persons</Name>
+        <Category>German</Category>
+        <FilterlistPath>real/german/persons/filters</FilterlistPath>
+        <Schema>{randomiser, ,4,32,real/german/persons/males|real/german/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>german-persons-female</Id>
+        <Name>German female persons</Name>
+        <Category>German</Category>
+        <FilterlistPath>real/german/persons/filters</FilterlistPath>
+        <Schema>{randomiser, ,4,32,real/german/persons/females|real/german/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>german-toponyms</Id>
+        <Name>German toponyms</Name>
+        <Category>German</Category>
+        <Schema>{markov,4,24,real/german/locations/toponyms}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>english-persons-male</Id>
+        <Name>English male persons</Name>
+        <Category>English</Category>
+        <Schema>{randomiser, ,4,32,real/english/persons/males|real/english/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>english-persons-female</Id>
+        <Name>English female persons</Name>
+        <Category>English</Category>
+        <Schema>{randomiser, ,4,32,real/english/persons/females|real/english/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>english-ships-space</Id>
+        <Name>English space ship names</Name>
+        <Category>English</Category>
+        <Schema>{randomiser, ,4,32,real/english/units/ships/space/adjectives|real/english/units/ships/space/nouns}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>english-toponyms</Id>
+        <Name>English toponyms</Name>
+        <Category>English</Category>
+        <Schema>{markov,4,24,real/english/locations/toponyms}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>french-persons-female</Id>
+        <Name>French female persons</Name>
+        <Category>French</Category>
+        <Schema>{randomiser, ,4,32,real/french/persons/females|real/french/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>french-persons-male</Id>
+        <Name>French male persons</Name>
+        <Category>French</Category>
+        <Schema>{randomiser, ,4,32,real/french/persons/males|real/french/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>french-toponyms</Id>
+        <Name>French toponyms</Name>
+        <Category>French</Category>
+        <Schema>{markov,4,24,real/french/locations/toponyms}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>finnish-persons-female</Id>
+        <Name>Finnish female persons</Name>
+        <Category>Finnish</Category>
+        <Schema>{randomiser, ,4,32,real/finnish/persons/females|real/finnish/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>finnish-persons-male</Id>
+        <Name>Finnish male persons</Name>
+        <Category>Finnish</Category>
+        <Schema>{randomiser, ,4,32,real/finnish/persons/males|real/finnish/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>finnish-toponyms</Id>
+        <Name>Finnish toponyms</Name>
+        <Category>Finnish</Category>
+        <Schema>{markov,4,24,real/finnish/locations/toponyms}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>irish-persons-female</Id>
+        <Name>Irish female persons</Name>
+        <Category>Irish</Category>
+        <Schema>{randomiser, ,4,32,real/irish/persons/females|real/irish/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>irish-persons-male</Id>
+        <Name>Irish male persons</Name>
+        <Category>Irish</Category>
+        <Schema>{randomiser, ,4,32,real/irish/persons/males|real/irish/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>irish-toponyms</Id>
+        <Name>Irish toponyms</Name>
+        <Category>Irish</Category>
+        <Schema>{markov,4,24,real/irish/locations/toponyms}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>greek-persons-female</Id>
+        <Name>Greek female persons</Name>
+        <Category>Greek</Category>
+        <Schema>{randomiser, ,4,32,real/greek/persons/females|real/greek/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>greek-persons-male</Id>
+        <Name>Greek male persons</Name>
+        <Category>Greek</Category>
+        <Schema>{randomiser, ,4,32,real/greek/persons/males|real/greek/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>greek-toponyms</Id>
+        <Name>Greek toponyms</Name>
+        <Category>Greek</Category>
+        <Schema>{markov,4,24,real/greek/locations/toponyms}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>hausa-persons-female</Id>
+        <Name>Hausa female persons</Name>
+        <Category>Hausa</Category>
+        <Schema>{randomiser, ,4,32,real/hausa/persons/females|real/hausa/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>hausa-persons-male</Id>
+        <Name>Hausa male persons</Name>
+        <Category>Hausa</Category>
+        <Schema>{randomiser, ,4,32,real/hausa/persons/males|real/hausa/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>hawaiian-persons-female</Id>
+        <Name>Hawaiian female persons</Name>
+        <Category>Hawaiian</Category>
+        <Schema>{randomiser, ,4,32,real/hawaiian/persons/females|real/hawaiian/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>hawaiian-persons-male</Id>
+        <Name>Hawaiian male persons</Name>
+        <Category>Hawaiian</Category>
+        <Schema>{randomiser, ,4,32,real/hawaiian/persons/males|real/hawaiian/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>hindi-persons-male</Id>
+        <Name>Hindi male persons</Name>
+        <Category>Hindi</Category>
+        <Schema>{randomiser, ,4,32,real/hindi/persons/males|real/hindi/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>hindi-persons-female</Id>
+        <Name>Hindi female persons</Name>
+        <Category>Hindi</Category>
+        <Schema>{randomiser, ,4,32,real/hindi/persons/females|real/hindi/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>indonesian-persons-female</Id>
+        <Name>Indonesian female persons</Name>
+        <Category>Indonesian</Category>
+        <Schema>{randomiser, ,4,32,real/indonesian/persons/females|real/indonesian/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>indonesian-persons-male</Id>
+        <Name>Indonesian male persons</Name>
+        <Category>Indonesian</Category>
+        <Schema>{randomiser, ,4,32,real/indonesian/persons/males|real/indonesian/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>italian-persons-male</Id>
+        <Name>Italian male persons</Name>
+        <Category>Italian</Category>
+        <Schema>{randomiser, ,4,32,real/italian/persons/males|real/italian/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>italian-persons-female</Id>
+        <Name>Italian female persons</Name>
+        <Category>Italian</Category>
+        <Schema>{randomiser, ,4,32,real/italian/persons/females|real/italian/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>italian-toponyms</Id>
+        <Name>Italian toponyms</Name>
+        <Category>Italian</Category>
+        <Schema>{markov,4,24,real/italian/locations/toponyms}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>japanese-persons-male</Id>
+        <Name>Japanese male persons</Name>
+        <Category>Japanese</Category>
+        <Schema>{randomiser, ,4,32,real/japanese/persons/males|real/japanese/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>japanese-persons-female</Id>
+        <Name>Japanese female persons</Name>
+        <Category>Japanese</Category>
+        <Schema>{randomiser, ,4,32,real/japanese/persons/females|real/japanese/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>misthalin-persons-female</Id>
+        <Name>Misthalin female persons</Name>
+        <Category>RuneScape</Category>
+        <Schema>{randomiser, ,4,32,runescape/human/misthalian/persons/females|runescape/human/misthalian/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>misthalin-persons-male</Id>
+        <Name>Misthalin male persons</Name>
+        <Category>RuneScape</Category>
+        <Schema>{randomiser, ,4,32,runescape/human/misthalian/persons/males|runescape/human/misthalian/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>maori-persons-female</Id>
+        <Name>Maori female persons</Name>
+        <Category>Maori</Category>
+        <Schema>{randomiser, ,4,32,real/maori/persons/females|real/maori/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>maori-persons-male</Id>
+        <Name>Maori male persons</Name>
+        <Category>Maori</Category>
+        <Schema>{randomiser, ,4,32,real/maori/persons/males|real/maori/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>dutch-persons-female</Id>
+        <Name>Dutch female persons</Name>
+        <Category>Dutch</Category>
+        <Schema>{randomiser, ,4,32,real/dutch/persons/females|real/dutch/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>dutch-persons-male</Id>
+        <Name>Dutch male persons</Name>
+        <Category>Dutch</Category>
+        <Schema>{randomiser, ,4,32,real/dutch/persons/males|real/dutch/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>dutch-toponyms</Id>
+        <Name>Dutch toponyms</Name>
+        <Category>Dutch</Category>
+        <Schema>{markov,4,24,real/dutch/locations/toponyms}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>no-mans-sky-gek-persons</Id>
+        <Name>No Man's Sky Gek persons</Name>
+        <Category>No Man's Sky</Category>
+        <Schema>{randomiser,,4,32,no-mans-sky/gek/persons/neutral}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>no-mans-sky-korvax-persons</Id>
+        <Name>No Man's Sky Korvax persons</Name>
+        <Category>No Man's Sky</Category>
+        <Schema>{randomiser,,4,32,no-mans-sky/korvax/persons/neutral}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>no-mans-sky-locations-planets</Id>
+        <Name>No Man's Sky planets</Name>
+        <Category>No Man's Sky</Category>
+        <Schema>{randomiser,,4,32,no-mans-sky/locations/planets}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>no-mans-sky-traveller-persons</Id>
+        <Name>No Man's Sky Traveller persons</Name>
+        <Category>No Man's Sky</Category>
+        <Schema>{randomiser,,4,32,no-mans-sky/traveller/persons/neutral}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>no-mans-sky-vykeen-persons</Id>
+        <Name>No Man's Sky Vy'keen persons</Name>
+        <Category>No Man's Sky</Category>
+        <Schema>{randomiser,,4,32,no-mans-sky/vykeen/persons/neutral}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>polish-persons-female</Id>
+        <Name>Polish female persons</Name>
+        <Category>Polish</Category>
+        <Schema>{randomiser, ,4,32,real/polish/persons/females|real/polish/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>polish-persons-male</Id>
+        <Name>Polish male persons</Name>
+        <Category>Polish</Category>
+        <Schema>{randomiser, ,4,32,real/polish/persons/males|real/polish/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>polish-toponyms</Id>
+        <Name>Polish toponyms</Name>
+        <Category>Polish</Category>
+        <Schema>{markov,4,24,real/polish/locations/toponyms}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>portuguese-persons-female</Id>
+        <Name>Portuguese female persons</Name>
+        <Category>Portuguese</Category>
+        <Schema>{randomiser, ,4,32,real/portuguese/persons/females|real/portuguese/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>portuguese-persons-male</Id>
+        <Name>Portuguese male persons</Name>
+        <Category>Portuguese</Category>
+        <Schema>{randomiser, ,4,32,real/portuguese/persons/males|real/portuguese/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>portuguese-toponyms</Id>
+        <Name>Portuguese toponyms</Name>
+        <Category>Portuguese</Category>
+        <Schema>{markov,4,24,real/portuguese/locations/toponyms}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>romanian-colours</Id>
+        <Name>Romanian colours names</Name>
+        <Schema>{markov,4,16,real/romanian/colours}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>romanian-flora</Id>
+        <Category>Romanian</Category>
+        <Name>Romanian flora species names</Name>
+        <FilterlistPath>real/romanian/flora/filters</FilterlistPath>
+        <Schema>{markov,4,14,real/romanian/flora/plants|real/romanian/flora/fruits2|real/romanian/flora/cereals|real/romanian/flora/fungi|real/romanian/flora/herbs|real/romanian/flora/shrubs|real/romanian/flora/trees|real/romanian/flora/fruits|real/romanian/flora/vegetables|real/romanian/flora/medicinal|real/romanian/flora/flowers|real/romanian/flora/weeds}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>romanian-trees</Id>
+        <Name>Romanian tree species names</Name>
+        <Category>Romanian</Category>
+        <FilterlistPath>real/romanian/flora/filters</FilterlistPath>
+        <Schema>{markov,4,16,real/romanian/flora/trees}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>romanian-fauna</Id>
+        <Name>Romanian fauna species names</Name>
+        <Category>Romanian</Category>
+        <FilterlistPath>real/romanian/flora/filters</FilterlistPath>
+        <Schema>{markov,4,16,real/romanian/fauna/amphibians|real/romanian/fauna/animals|real/romanian/fauna/birds|real/romanian/fauna/fishes|real/romanian/fauna/insects|real/romanian/fauna/reptiles}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>romanian-amphibians</Id>
+        <Name>Romanian amphibian species names</Name>
+        <Category>Romanian</Category>
+        <Schema>{markov,4,16,real/romanian/fauna/amphibians}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>romanian-birds</Id>
+        <Name>Romanian bird species names</Name>
+        <Category>Romanian</Category>
+        <Schema>{markov,4,16,real/romanian/fauna/birds}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>romanian-fishes</Id>
+        <Name>Romanian fish species names</Name>
+        <Schema>{markov,4,16,real/romanian/fauna/fishes}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>romanian-insects</Id>
+        <Name>Romanian insect species names</Name>
+        <Category>Romanian</Category>
+        <Schema>{markov,4,16,real/romanian/fauna/insects}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>romanian-fruits</Id>
+        <Name>Romanian fruit species names</Name>
+        <Category>Romanian</Category>
+        <Schema>{markov,4,16,real/romanian/flora/fruits}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>romanian-minerals</Id>
+        <Name>Romanian mineral names</Name>
+        <Category>Romanian</Category>
+        <FilterlistPath>real/romanian/minerals/filters</FilterlistPath>
+        <Schema>{markov,4,16,real/romanian/minerals/minerals}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>romanian-phone-numbers</Id>
+        <Name>Romanian phone numbers</Name>
+        <Category>Romanian</Category>
+        <FilterlistPath>real/romanian/phone-numbers/filters</FilterlistPath>
+        <Schema>{markov,17,17,real/romanian/phone-numbers/phone-numbers}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>romanian-plants</Id>
+        <Name>Romanian plant names</Name>
+        <Category>Romanian</Category>
+        <Schema>{markov,4,16,real/romanian/flora/plants}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>romanian-toponyms</Id>
+        <Name>Romanian toponyms</Name>
+        <Category>Romanian</Category>
+        <Schema>{markov,4,24,real/romanian/locations/settlements/cities/romania|real/romanian/locations/settlements/towns/romania|real/romanian/locations/settlements/communes/romania|real/romanian/locations/settlements/cities/moldova|real/romanian/locations/settlements/communes/moldova|real/romanian/locations/settlements/towns/moldova|real/romanian/locations/settlements/villages/romania|real/romanian/locations/settlements/villages/moldova|real/romanian/locations/toponyms}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>romanian-settlements</Id>
+        <Name>Romanian settlement names</Name>
+        <Category>Romanian</Category>
+        <FilterlistPath>real/romanian/locations/settlements/filters</FilterlistPath>
+        <Schema>{markov,4,24,real/romanian/locations/settlements/cities/romania|real/romanian/locations/settlements/towns/romania|real/romanian/locations/settlements/communes/romania|real/romanian/locations/settlements/cities/moldova|real/romanian/locations/settlements/communes/moldova|real/romanian/locations/settlements/towns/moldova|real/romanian/locations/settlements/villages/romania|real/romanian/locations/settlements/villages/moldova}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>romanian-cities</Id>
+        <Name>Romanian city names</Name>
+        <Category>Romanian</Category>
+        <FilterlistPath>real/romanian/locations/settlements/filters</FilterlistPath>
+        <Schema>{markov,4,24,real/romanian/locations/settlements/cities/romania}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>romanian-communes</Id>
+        <Name>Romanian commune names</Name>
+        <Category>Romanian</Category>
+        <FilterlistPath>real/romanian/locations/settlements/filters</FilterlistPath>
+        <Schema>{markov,4,24,real/romanian/locations/settlements/communes/romania}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>romanian-towns</Id>
+        <Name>Romanian town names</Name>
+        <Category>Romanian</Category>
+        <FilterlistPath>real/romanian/locations/settlements/filters</FilterlistPath>
+        <Schema>{markov,4,24,real/romanian/locations/settlements/towns/romania}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>romanian-persons-male</Id>
+        <Name>Romanian male persons</Name>
+        <Category>Romanian</Category>
+        <FilterlistPath>real/romanian/persons/filters</FilterlistPath>
+        <Schema>{randomiser, ,4,32,real/romanian/persons/males|real/romanian/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>romanian-persons-female</Id>
+        <Name>Romanian female persons</Name>
+        <Category>Romanian</Category>
+        <FilterlistPath>real/romanian/persons/filters</FilterlistPath>
+        <Schema>{randomiser, ,4,32,real/romanian/persons/females|real/romanian/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>romanian-landmarks</Id>
+        <Name>Romanian landmark names</Name>
+        <Category>Romanian</Category>
+        <FilterlistPath>real/romanian/locations/landmarks/filters</FilterlistPath>
+        <Schema>{randomiser, ,4,32,real/romanian/locations/landmarks/nouns|real/romanian/locations/landmarks/adjectives}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>russian-persons-female</Id>
+        <Name>Russian female persons</Name>
+        <Category>Russian</Category>
+        <Schema>{randomiser, ,4,32,real/russian/persons/females|real/russian/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>russian-persons-male</Id>
+        <Name>Russian male persons</Name>
+        <Category>Russian</Category>
+        <Schema>{randomiser, ,4,32,real/russian/persons/males|real/russian/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>russian-toponyms</Id>
+        <Name>Russian toponyms</Name>
+        <Category>Russian</Category>
+        <Schema>{markov,4,24,real/russian/locations/toponyms}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>somali-persons-female</Id>
+        <Name>Somali female persons</Name>
+        <Category>Somali</Category>
+        <Schema>{randomiser, ,4,32,real/somali/persons/females|real/somali/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>somali-persons-male</Id>
+        <Name>Somali male persons</Name>
+        <Category>Somali</Category>
+        <Schema>{randomiser, ,4,32,real/somali/persons/males|real/somali/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>spanish-persons-male</Id>
+        <Name>Spanish male persons</Name>
+        <Category>Spanish</Category>
+        <Schema>{randomiser, ,4,32,real/spanish/persons/males|real/spanish/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>spanish-persons-female</Id>
+        <Name>Spanish female persons</Name>
+        <Category>Spanish</Category>
+        <Schema>{randomiser, ,4,32,real/spanish/persons/females|real/spanish/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>spanish-toponyms</Id>
+        <Name>Spanish toponyms</Name>
+        <Category>Spanish</Category>
+        <Schema>{markov,4,24,real/spanish/locations/toponyms}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>serbocroatian-persons-male</Id>
+        <Name>Serbo-Croatian male persons</Name>
+        <Category>Serbo-Croatian</Category>
+        <Schema>{randomiser, ,4,32,real/serbocroatian/persons/males|real/serbocroatian/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>serbocroatian-persons-female</Id>
+        <Name>Serbo-Croatian female persons</Name>
+        <Category>Serbo-Croatian</Category>
+        <Schema>{randomiser, ,4,32,real/serbocroatian/persons/females|real/serbocroatian/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>serbocroatian-toponyms</Id>
+        <Name>Serbo-Croatian toponyms</Name>
+        <Category>Serbo-Croatian</Category>
+        <Schema>{markov,4,24,real/serbocroatian/locations/toponyms}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>slovak-persons-male</Id>
+        <Name>Slovak male persons</Name>
+        <Category>Slovak</Category>
+        <Schema>{randomiser, ,4,32,real/slovak/persons/males|real/slovak/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>slovak-persons-female</Id>
+        <Name>Slovak female persons</Name>
+        <Category>Slovak</Category>
+        <Schema>{randomiser, ,4,32,real/slovak/persons/females|real/slovak/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>slovak-toponyms</Id>
+        <Name>Slovak toponyms</Name>
+        <Category>Slovak</Category>
+        <Schema>{markov,4,24,real/slovak/locations/toponyms}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>protoss-khalai-persons-female</Id>
+        <Name>Khalai Protoss female persons</Name>
+        <Category>StarCraft</Category>
+        <Schema>{randomiser, ,4,32,starcraft/protoss/khalai/persons/females}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>protoss-khalai-persons-male</Id>
+        <Name>Khalai Protoss male persons</Name>
+        <Category>StarCraft</Category>
+        <Schema>{randomiser, ,4,32,starcraft/protoss/khalai/persons/males}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>protoss-nerazim-persons-female</Id>
+        <Name>Nerazim Protoss female persons</Name>
+        <Category>StarCraft</Category>
+        <Schema>{randomiser, ,4,32,starcraft/protoss/nerazim/persons/females}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>protoss-nerazim-persons-male</Id>
+        <Name>Nerazim Protoss male persons</Name>
+        <Category>StarCraft</Category>
+        <Schema>{randomiser, ,4,32,starcraft/protoss/nerazim/persons/males}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>protoss-taldarim-persons-female</Id>
+        <Name>Tal'darim Protoss female persons</Name>
+        <Category>StarCraft</Category>
+        <Schema>{randomiser, ,4,32,starcraft/protoss/taldarim/persons/females}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>protoss-taldarim-persons-male</Id>
+        <Name>Tal'darim Protoss male persons</Name>
+        <Category>StarCraft</Category>
+        <Schema>{randomiser, ,4,32,starcraft/protoss/taldarim/persons/males}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>zerg-persons-female</Id>
+        <Name>Zerg female persons</Name>
+        <Category>StarCraft</Category>
+        <Schema>{randomiser, ,4,32,starcraft/zerg/persons/females}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>zerg-persons-male</Id>
+        <Name>Zerg male persons</Name>
+        <Category>StarCraft</Category>
+        <Schema>{randomiser, ,4,32,starcraft/zerg/persons/males}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>dacian-settlements</Id>
+        <Name>Dacian settlement names (Procedurally generated)</Name>
+        <Category>Dacian</Category>
+        <FilterlistPath>real/dacian/locations/settlements/filters</FilterlistPath>
+        <Schema>{markov,4,20,real/dacian/locations/settlements/settlements}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>swedish-persons-female</Id>
+        <Name>Swedish female persons</Name>
+        <Category>Swedish</Category>
+        <Schema>{randomiser, ,4,32,real/swedish/persons/females|real/swedish/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>swedish-persons-male</Id>
+        <Name>Swedish male persons</Name>
+        <Category>Swedish</Category>
+        <Schema>{randomiser, ,4,32,real/swedish/persons/males|real/swedish/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>turkish-persons-female</Id>
+        <Name>Turkish female persons</Name>
+        <Category>Turkish</Category>
+        <Schema>{randomiser, ,4,32,real/turkish/persons/females|real/turkish/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>turkish-persons-male</Id>
+        <Name>Turkish male persons</Name>
+        <Category>Turkish</Category>
+        <Schema>{randomiser, ,4,32,real/turkish/persons/males|real/turkish/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>turkish-toponyms</Id>
+        <Name>Turkish toponyms</Name>
+        <Category>Turkish</Category>
+        <Schema>{markov,4,24,real/turkish/locations/toponyms}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>dacian-settlements-real</Id>
+        <Name>Dacian settlement names (Real)</Name>
+        <Category>Dacian</Category>
+        <FilterlistPath>real/dacian/locations/settlements/filters</FilterlistPath>
+        <Schema>{randomiser,,4,24,real/dacian/locations/settlements/bases|real/dacian/locations/settlements/endings}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>dacian-persons-male</Id>
+        <Name>Dacian male persons (Procedurally generated)</Name>
+        <Category>Dacian</Category>
+        <Schema>{markov,4,16,real/dacian/persons/males}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>dacian-persons-male-real</Id>
+        <Name>Dacian male persons</Name>
+        <Category>Dacian</Category>
+        <Schema>{randomiser,,4,16,real/dacian/persons/males}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>dacian-persons-female-real</Id>
+        <Name>Dacian female persons (Real)</Name>
+        <Category>Dacian</Category>
+        <Schema>{randomiser,,4,16,real/dacian/persons/females}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>kharidian-persons-female</Id>
+        <Name>Kharidian female persons</Name>
+        <Category>RuneScape</Category>
+        <Schema>{randomiser, ,4,32,runescape/human/kharidian/persons/females|runescape/human/kharidian/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>kharidian-persons-male</Id>
+        <Name>Kharidian male persons</Name>
+        <Category>RuneScape</Category>
+        <Schema>{randomiser, ,4,32,runescape/human/kharidian/persons/males|runescape/human/kharidian/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>latin-persons-male</Id>
+        <Name>Latin (Republican) male persons</Name>
+        <Category>Latin</Category>
+        <FilterlistPath>real/latin/persons/filters</FilterlistPath>
+        <Schema>{randomiser, ,4,32,real/latin/persons/pronomen/males|real/latin/persons/nomen|real/latin/persons/cognomen/males}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>latin-persons-female</Id>
+        <Name>Latin (Republican) female persons</Name>
+        <Category>Latin</Category>
+        <FilterlistPath>real/latin/persons/filters</FilterlistPath>
+        <Schema>{randomiser, ,4,32,real/latin/persons/pronomen/females|real/latin/persons/nomen|real/latin/persons/cognomen/females}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>latin-settlements</Id>
+        <Name>Latin settlement names (all periods)</Name>
+        <Category>Latin</Category>
+        <FilterlistPath>real/latin/locations/settlements</FilterlistPath>
+        <Schema>{markov,4,11,real/latin/locations/settlements}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>latin-toponyms</Id>
+        <Name>Latin toponyms</Name>
+        <Category>Latin</Category>
+        <Schema>{markov,4,24,real/latin/locations/toponyms|real/latin/locations/settlements}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>letian-settlements</Id>
+        <Name>Letian (Narivia) settlements</Name>
+        <Category>Letian</Category>
+        <Schema>{markov,4,16,narivia/letian/locations/settlements}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>lithuanian-persons-female</Id>
+        <Name>Lithuanian female persons</Name>
+        <Category>Lithuanian</Category>
+        <Schema>{randomiser, ,4,32,real/lithuanian/persons/females|real/lithuanian/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>lithuanian-persons-male</Id>
+        <Name>Lithuanian male persons</Name>
+        <Category>Lithuanian</Category>
+        <Schema>{randomiser, ,4,32,real/lithuanian/persons/males|real/lithuanian/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>lithuanian-toponyms</Id>
+        <Name>Lithuanian toponyms</Name>
+        <Category>Lithuanian</Category>
+        <Schema>{markov,4,24,real/lithuanian/locations/toponyms}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>rodah-settlements</Id>
+        <Name>Rodah (Narivia) settlements</Name>
+        <Category>Rodah</Category>
+        <Schema>{randomiser,,6,12,narivia/rodah/locations/settlements/prefixes|narivia/rodah/locations/settlements/bases|narivia/rodah/locations/settlements/endings}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>rodah-ships</Id>
+        <Name>Rodah (Narivia) ships</Name>
+        <Category>Rodah</Category>
+        <Schema>{markov,4,16,narivia/rodah/units/ships}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>rodah-persons-male</Id>
+        <Name>Rodah (Narivia) male person names</Name>
+        <Category>Rodah</Category>
+        <FilterlistPath>narivia/rodah/persons/filters</FilterlistPath>
+        <Schema>{randomiser,,6,12,narivia/rodah/persons/males/bases|narivia/rodah/persons/males/endings}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>elder-scrolls-altmer-persons-female</Id>
+        <Name>Altmer male persons</Name>
+        <Category>Elder Scrolls</Category>
+        <Schema>{randomiser, ,4,32,elder-scrolls/elven/altmer/persons/females|elder-scrolls/elven/altmer/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>elder-scrolls-altmer-persons-male</Id>
+        <Name>Altmer male persons</Name>
+        <Category>Elder Scrolls</Category>
+        <Schema>{randomiser, ,4,32,elder-scrolls/elven/altmer/persons/males|elder-scrolls/elven/altmer/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>elder-scrolls-argonian-persons-female</Id>
+        <Name>Argonian male persons</Name>
+        <Category>Elder Scrolls</Category>
+        <Schema>{randomiser, ,4,32,elder-scrolls/argonian/persons/hyphenated/females}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>elder-scrolls-argonian-persons-male</Id>
+        <Name>Argonian male persons</Name>
+        <Category>Elder Scrolls</Category>
+        <Schema>{randomiser, ,4,32,elder-scrolls/argonian/persons/hyphenated/males}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>elder-scrolls-argonian-persons-single-word-female</Id>
+        <Name>Argonian male persons (single-word)</Name>
+        <Category>Elder Scrolls</Category>
+        <Schema>{randomiser, ,4,32,elder-scrolls/argonian/persons/single-word/females}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>elder-scrolls-argonian-persons-single-word-male</Id>
+        <Name>Argonian male persons (single-word)</Name>
+        <Category>Elder Scrolls</Category>
+        <Schema>{randomiser, ,4,32,elder-scrolls/argonian/persons/single-word/males}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>elder-scrolls-argonian-persons-tamrielic-female</Id>
+        <Name>Argonian male persons (tamrielic)</Name>
+        <Category>Elder Scrolls</Category>
+        <Schema>{randomiser, ,4,32,elder-scrolls/argonian/persons/tamrielic/females}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>elder-scrolls-argonian-persons-tamrielic-male</Id>
+        <Name>Argonian male persons (tamrielic)</Name>
+        <Category>Elder Scrolls</Category>
+        <Schema>{randomiser, ,4,32,elder-scrolls/argonian/persons/tamrielic/males}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>elder-scrolls-ayleid-locations-ruins</Id>
+        <Name>Ayleid ruin names</Name>
+        <Category>Elder Scrolls</Category>
+        <Schema>{markov,4,16,elder-scrolls/elven/ayleid/locations/ruins}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>elder-scrolls-dremora-persons-female</Id>
+        <Name>Dremora female persons</Name>
+        <Category>Elder Scrolls</Category>
+        <Schema>{randomiser, ,4,32,elder-scrolls/dremora/persons/females|elder-scrolls/dremora/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>elder-scrolls-dremora-persons-male</Id>
+        <Name>Dremora male persons</Name>
+        <Category>Elder Scrolls</Category>
+        <Schema>{randomiser, ,4,32,elder-scrolls/dremora/persons/males|elder-scrolls/dremora/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>elder-scrolls-khajiit-persons-female</Id>
+        <Name>Ta'agra female personal names</Name>
+        <Category>Elder Scrolls</Category>
+        <Schema>{randomiser, ,4,32,elder-scrolls/taagra/persons/females}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>elder-scrolls-khajiit-persons-male</Id>
+        <Name>Ta'agra male personal names</Name>
+        <Category>Elder Scrolls</Category>
+        <Schema>{randomiser, ,4,32,elder-scrolls/taagra/persons/males}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>elder-scrolls-orcish-persons-female</Id>
+        <Name>Orc male persons</Name>
+        <Category>Elder Scrolls</Category>
+        <Schema>{randomiser, ,4,32,elder-scrolls/orcish/persons/females} gra-{randomiser, ,4,32,elder-scrolls/orcish/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>elder-scrolls-orcish-persons-male</Id>
+        <Name>Orc male persons</Name>
+        <Category>Elder Scrolls</Category>
+        <Schema>{randomiser, ,4,32,elder-scrolls/orcish/persons/males} gron-{randomiser, ,4,32,elder-scrolls/orcish/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>hungarian-persons-male</Id>
+        <Name>Hungarian male persons</Name>
+        <Category>Hungarian</Category>
+        <FilterlistPath>real/hungarian/persons/filters</FilterlistPath>
+        <Schema>{randomiser, ,4,32,real/hungarian/persons/males|real/hungarian/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>hungarian-persons-female</Id>
+        <Name>Hungarian female persons</Name>
+        <Category>Hungarian</Category>
+        <FilterlistPath>real/hungarian/persons/filters</FilterlistPath>
+        <Schema>{randomiser, ,4,32,real/hungarian/persons/females|real/hungarian/persons/surnames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>hungarian-toponyms</Id>
+        <Name>Hungarian toponyms</Name>
+        <Category>Hungarian</Category>
+        <Schema>{markov,4,24,real/hungarian/locations/toponyms}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>yohoho-puzzle-pirates-ships</Id>
+        <Name>Yohoho! Puzzle Pirates ships</Name>
+        <Category>Yohoho! Puzzle Pirates</Category>
+        <Schema>{randomiser, ,4,32,yohoho-puzzle-pirates/units/ships/adjectives|yohoho-puzzle-pirates/units/ships/fishes}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>middle-earth-elven-sindarin-persons-male</Id>
+        <Name>Elven male persons (Sindarin)</Name>
+        <Category>Middle Earth</Category>
+        <FilterlistPath>middle-earth/elven/sindarin/persons/filters</FilterlistPath>
+        <Schema>{randomiser, ,4,32,middle-earth/elven/sindarin/persons/males|middle-earth/elven/sindarin/persons/nicknames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>middle-earth-elven-sindarin-persons-female</Id>
+        <Name>Elven female persons (Sindarin)</Name>
+        <Category>Middle Earth</Category>
+        <FilterlistPath>middle-earth/elven/sindarin/persons/filters</FilterlistPath>
+        <Schema>{randomiser, ,4,32,middle-earth/elven/sindarin/persons/females|middle-earth/elven/sindarin/persons/nicknames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>middle-earth-elven-quenya-persons-male</Id>
+        <Name>Elven male persons (Quenya)</Name>
+        <Category>Middle Earth</Category>
+        <FilterlistPath>middle-earth/elven/quenya/persons/filters</FilterlistPath>
+        <Schema>{randomiser, ,4,32,middle-earth/elven/quenya/persons/males|middle-earth/elven/quenya/persons/nicknames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>middle-earth-elven-quenya-persons-female</Id>
+        <Name>Elven female persons (Quenya)</Name>
+        <Category>Middle Earth</Category>
+        <FilterlistPath>middle-earth/elven/quenya/persons/filters</FilterlistPath>
+        <Schema>{randomiser, ,4,32,middle-earth/elven/quenya/persons/females|middle-earth/elven/quenya/persons/nicknames}</Schema>
+    </GenerationSchemaEntity>
+    <GenerationSchemaEntity>
+        <Id>usernames</Id>
+        <Name>Internet usernames</Name>
+        <Category>Usernames</Category>
+        <Schema>{markov,4,16,usernames/aur|usernames/bitwarden-forum|usernames/erepublik|usernames/gamingonlinux|usernames/github|usernames/gitlab|usernames/hassio-community|usernames/imgflip|usernames/instagram|usernames/irc_rizon|usernames/mastodon|usernames/minecraft|usernames/nexusmods|usernames/reddit|usernames/reddit_dump|usernames/runescape|usernames/spigotmc|usernames/steam|usernames/twitter|usernames/yohoho-puzzle-pirates|usernames/youtube}</Schema>
+        <WordCase>Original</WordCase>
+    </GenerationSchemaEntity>
+</ArrayOfGenerationSchemaEntity>
