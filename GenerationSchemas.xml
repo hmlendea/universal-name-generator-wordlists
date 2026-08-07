@@ -948,7 +948,7 @@
         <Id>pinched-zaganian-persons-male</Id>
         <Name>Zaganian male persons</Name>
         <Category>Zaganian</Category>
-        <Schema>{randomiser, ,4,32,zaganian/persons/males}</Schema>
+        <Schema>{randomiser, ,4,32,pinched-universe/zaganian/persons/males}</Schema>
         <WordCase>Original</WordCase>
     </GenerationSchemaDataObject>
 </ArrayOfGenerationSchemaDataObject>
