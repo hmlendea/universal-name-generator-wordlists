@@ -941,7 +941,7 @@
         <Id>fantasy-dragons</Id>
         <Name>Dragons</Name>
         <Category>Dragons</Category>
-        <Schema>{random-selector,4,32,a-song-of-ice-and-fire/english/dragons|a-song-of-ice-and-fire/valyrian/dragons|dragon-age/dragon/names|elder-scrolls/dragon/names|warcraft/dragon/names}</Schema>
+        <Schema>{random-selector,4,32,a-song-of-ice-and-fire/english/dragons|a-song-of-ice-and-fire/valyrian/dragons|dragon-age/dragon/names|elder-scrolls/dragon/names|middle-warth/dragon/names|warcraft/dragon/names}</Schema>
         <WordCase>Original</WordCase>
     </GenerationSchemaDataObject>
 </ArrayOfGenerationSchemaDataObject>
