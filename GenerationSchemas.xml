@@ -958,4 +958,11 @@
         <Schema>{randomiser, ,4,32,romanian/animals/cows}</Schema>
         <WordCase>Original</WordCase>
     </GenerationSchemaDataObject>
+    <GenerationSchemaDataObject>
+        <Id>romanian-animals-pigs</Id>
+        <Name>Romanian pigs</Name>
+        <Category>Romanian</Category>
+        <Schema>{randomiser, ,4,32,romanian/animals/pigs}</Schema>
+        <WordCase>Original</WordCase>
+    </GenerationSchemaDataObject>
 </ArrayOfGenerationSchemaDataObject>
