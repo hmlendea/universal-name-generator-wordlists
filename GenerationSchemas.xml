@@ -941,7 +941,7 @@
         <Id>fantasy-dragons</Id>
         <Name>Dragons</Name>
         <Category>Dragons</Category>
-        <Schema>{random-selector,4,32,a-song-of-ice-and-fire/english/dragons|a-song-of-ice-and-fire/valyrian/dragons|dragon-age/dragon/names|elder-scrolls/dragon/names|middle-warth/dragon/names|warcraft/dragon/names}</Schema>
+        <Schema>{random-selector,4,32,a-song-of-ice-and-fire/english/dragons|a-song-of-ice-and-fire/valyrian/dragons|dragon-age/dragon/names|elder-scrolls/dragon/names|middle-earth/dragon/names|warcraft/dragon/names}</Schema>
         <WordCase>Original</WordCase>
     </GenerationSchemaDataObject>
     <GenerationSchemaDataObject>
@@ -949,6 +949,20 @@
         <Name>Zaganian male persons</Name>
         <Category>Zaganian</Category>
         <Schema>{randomiser, ,4,32,pinched-universe/zaganian/persons/males}</Schema>
+        <WordCase>Original</WordCase>
+    </GenerationSchemaDataObject>
+    <GenerationSchemaDataObject>
+        <Id>romanian-animals-cows</Id>
+        <Name>Romanian cows</Name>
+        <Category>Romanian</Category>
+        <Schema>{randomiser, ,4,32,romanian/animals/cows}</Schema>
+        <WordCase>Original</WordCase>
+    </GenerationSchemaDataObject>
+    <GenerationSchemaDataObject>
+        <Id>romanian-animals-pigs</Id>
+        <Name>Romanian pigs</Name>
+        <Category>Romanian</Category>
+        <Schema>{randomiser, ,4,32,romanian/animals/pigs}</Schema>
         <WordCase>Original</WordCase>
     </GenerationSchemaDataObject>
 </ArrayOfGenerationSchemaDataObject>
