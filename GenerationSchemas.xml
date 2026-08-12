@@ -959,6 +959,20 @@
         <WordCase>Original</WordCase>
     </GenerationSchemaDataObject>
     <GenerationSchemaDataObject>
+        <Id>pinched-nucian-high-persons-female</Id>
+        <Name>High Nucian female persons</Name>
+        <Category>High Nucian</Category>
+        <Schema>{randomiser, ,4,32,pinched-universe/nucian/high/persons/females|pinched-universe/nucian/high/persons/surnames}</Schema>
+        <WordCase>Original</WordCase>
+    </GenerationSchemaDataObject>
+    <GenerationSchemaDataObject>
+        <Id>pinched-nucian-high-persons-male</Id>
+        <Name>High Nucian male persons</Name>
+        <Category>High Nucian</Category>
+        <Schema>{randomiser, ,4,32,pinched-universe/nucian/high/persons/males|pinched-universe/nucian/high/persons/surnames}</Schema>
+        <WordCase>Original</WordCase>
+    </GenerationSchemaDataObject>
+    <GenerationSchemaDataObject>
         <Id>romanian-animals-cows</Id>
         <Name>Romanian cows</Name>
         <Category>Romanian</Category>
@@ -976,7 +990,7 @@
         <Id>animals-pigs</Id>
         <Name>Animals - Pigs</Name>
         <Category>Animals</Category>
-        <Schema>{randomiser, ,4,32,real/romanian/animals/pigs|pinched-universe/nucian/animals/pigs}</Schema>
+        <Schema>{random-selector,4,32,real/romanian/animals/pigs|pinched-universe/nucian/low/animals/pigs}</Schema>
         <WordCase>Original</WordCase>
     </GenerationSchemaDataObject>
 </ArrayOfGenerationSchemaDataObject>
