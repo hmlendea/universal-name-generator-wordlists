@@ -962,14 +962,21 @@
         <Id>romanian-animals-cows</Id>
         <Name>Romanian cows</Name>
         <Category>Romanian</Category>
-        <Schema>{randomiser, ,4,32,romanian/animals/cows}</Schema>
+        <Schema>{randomiser, ,4,32,real/romanian/animals/cows}</Schema>
         <WordCase>Original</WordCase>
     </GenerationSchemaDataObject>
     <GenerationSchemaDataObject>
         <Id>romanian-animals-pigs</Id>
         <Name>Romanian pigs</Name>
         <Category>Romanian</Category>
-        <Schema>{randomiser, ,4,32,romanian/animals/pigs}</Schema>
+        <Schema>{randomiser, ,4,32,real/romanian/animals/pigs}</Schema>
+        <WordCase>Original</WordCase>
+    </GenerationSchemaDataObject>
+    <GenerationSchemaDataObject>
+        <Id>animals-pigs</Id>
+        <Name>Animals - Pigs</Name>
+        <Category>Animals</Category>
+        <Schema>{randomiser, ,4,32,real/romanian/animals/pigs|pinched-universe/nucian/animals/pigs}</Schema>
         <WordCase>Original</WordCase>
     </GenerationSchemaDataObject>
 </ArrayOfGenerationSchemaDataObject>
