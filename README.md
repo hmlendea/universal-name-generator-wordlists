@@ -16,6 +16,7 @@ It is an assets-only repository. No application code is included here.
 - [Project Structure](#-project-structure)
 - [Roadmap](#-roadmap)
 - [Contributing](#-contributing)
+- [Code of Conduct](#-code-of-conduct)
 - [Related Projects](#-related-projects)
 - [Privacy and Data](#-privacy-and-data)
 - [Security](#-security)
@@ -94,6 +95,10 @@ Contributions are welcome, especially:
 See [ROADMAP.md](./ROADMAP.md) for planned work and forthcoming changes.
 
 See the [Contributing Guidelines](./CONTRIBUTING.md) for details on how to report issues, suggest enhancements, and submit changes.
+
+## 📜 Code of Conduct
+
+See the [Code of Conduct](./CODE_OF_CONDUCT.md) for the standards of conduct expected in all project spaces.
 
 ## 🔗 Related Projects
 
