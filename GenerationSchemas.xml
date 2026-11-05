@@ -938,6 +938,27 @@
         <WordCase>Original</WordCase>
     </GenerationSchemaDataObject>
     <GenerationSchemaDataObject>
+        <Id>fantasy-demons-female</Id>
+        <Name>Female demons</Name>
+        <Category>Demons</Category>
+        <Schema>{random-selector,4,32,divinity/demonic/persons/females.lst|runescape/demonic/persons.lst}</Schema>
+        <WordCase>Original</WordCase>
+    </GenerationSchemaDataObject>
+    <GenerationSchemaDataObject>
+        <Id>fantasy-demons-male</Id>
+        <Name>Male demons</Name>
+        <Category>Demons</Category>
+        <Schema>{random-selector,4,32,divinity/demonic/persons/males.lst|runescape/demonic/persons.lst}</Schema>
+        <WordCase>Original</WordCase>
+    </GenerationSchemaDataObject>
+    <GenerationSchemaDataObject>
+        <Id>fantasy-demons</Id>
+        <Name>Demons</Name>
+        <Category>Demons</Category>
+        <Schema>{random-selector,4,32,divinity/demonic/persons/females.lst|divinity/demonic/persons/males.lst|runescape/demonic/persons.lst}</Schema>
+        <WordCase>Original</WordCase>
+    </GenerationSchemaDataObject>
+    <GenerationSchemaDataObject>
         <Id>fantasy-dragons</Id>
         <Name>Dragons</Name>
         <Category>Dragons</Category>
