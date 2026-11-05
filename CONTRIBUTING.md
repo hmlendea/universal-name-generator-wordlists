@@ -15,6 +15,7 @@ This document covers the guidelines and processes for contributing to this proje
   - [Code Style](#code-style)
   - [Testing](#testing)
   - [Documentation](#documentation)
+- [Security](#-security)
 - [License](#-license)
 
 ## 🤝 Contributing
@@ -88,6 +89,10 @@ This is an assets-only repository; there are no automated tests. Validate contri
 - Revise relevant docs for changes.
 - Follow the documentation style guide.
 - Preview changes locally if possible.
+
+## 🔒 Security
+
+Report security vulnerabilities per the [Security Policy](./SECURITY.md).
 
 ## 📄 License
 
