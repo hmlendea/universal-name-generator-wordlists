@@ -142,7 +142,7 @@ Responsibilities:
 - Provide human-readable navigation and policy documentation.
 
 Boundary rules:
-- Documentation files reside at repository root; no `docs/` directory.
+- Documentation files reside at repository root and in `docs/` directory.
 - Policy changes follow standard pull-request review.
 
 ## 💾 Data Architecture

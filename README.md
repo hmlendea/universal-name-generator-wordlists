@@ -15,6 +15,7 @@ It is an assets-only repository. No application code is included here.
 - [Known Limitations](#-known-limitations)
 - [Project Structure](#-project-structure)
 - [Architecture](#-architecture)
+- [Documentation](#-documentation)
 - [Roadmap](#-roadmap)
 - [Contributing](#-contributing)
 - [Code of Conduct](#-code-of-conduct)
@@ -59,6 +60,7 @@ The key directories are:
 |-----------|---------|
 | `wordlists/` | All naming datasets, organised by setting and category |
 | `GenerationSchemas.xml` | XML schema definitions for generation structures and validation |
+| `docs/` | Comprehensive documentation (architecture, API reference, guides) |
 | `.github/` | Repository metadata such as funding configuration |
 
 Each wordlist is a plain text file with one entry per line:
@@ -77,6 +79,18 @@ Files are named and organised to reflect their intended use (e.g. `persons/males
 Universal Name Generator — Wordlists is a curated data-asset repository with schema validation and versioned distribution. It provides plain-text wordlist datasets and an XML schema catalogue, packaged into immutable release archives consumed by downstream generators.
 
 See the [architecture documentation](./ARCHITECTURE.md) for the system context, principal components, runtime flows, ownership boundaries, dependencies, constraints, and extension points.
+
+## 📚 Documentation
+
+Comprehensive documentation is available in the [docs/](./docs/INDEX.md) directory:
+
+- [Documentation Index](./docs/INDEX.md) -- Repository summary and complete catalogue
+- [Quick Start](./docs/quick-start.md) -- Minimal integration guide
+- [API Reference](./docs/api-reference/INDEX.md) -- Data contract and operations
+- [Architecture](./docs/architecture.md) -- Schema grammar and algorithms
+- [Data Model](./docs/data-model.md) -- Entity definitions and formats
+- [Change Guide](./docs/change-guide.md) -- How to add wordlists and schemas
+- [Security](./docs/security.md) -- Data integrity and supply-chain considerations
 
 ## 🗺️ Roadmap
 
