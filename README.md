@@ -14,6 +14,7 @@ It is an assets-only repository. No application code is included here.
 - [Usage](#-usage)
 - [Known Limitations](#-known-limitations)
 - [Project Structure](#-project-structure)
+- [Architecture](#-architecture)
 - [Roadmap](#-roadmap)
 - [Contributing](#-contributing)
 - [Code of Conduct](#-code-of-conduct)
@@ -70,6 +71,12 @@ ther
 ```
 
 Files are named and organised to reflect their intended use (e.g. `persons/males`, `locations/cities`, `units`).
+
+## 🏗️ Architecture
+
+Universal Name Generator — Wordlists is a curated data-asset repository with schema validation and versioned distribution. It provides plain-text wordlist datasets and an XML schema catalogue, packaged into immutable release archives consumed by downstream generators.
+
+See the [architecture documentation](./ARCHITECTURE.md) for the system context, principal components, runtime flows, ownership boundaries, dependencies, constraints, and extension points.
 
 ## 🗺️ Roadmap
 
