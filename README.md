@@ -18,6 +18,7 @@ It is an assets-only repository. No application code is included here.
 - [Contributing](#-contributing)
 - [Related Projects](#-related-projects)
 - [Privacy and Data](#-privacy-and-data)
+- [Security](#-security)
 - [Helping out](#-helping-out)
 - [License](#-license)
 
@@ -101,6 +102,12 @@ See the [Contributing Guidelines](./CONTRIBUTING.md) for details on how to repor
 ## 🛡️ Privacy and Data
 
 This repository is an assets-only collection of curated wordlist data files. No personal data is collected, processed, transmitted, or persisted by this repository. For the complete data-handling description, see [PRIVACY.md](./PRIVACY.md).
+
+## 🔒 Security
+
+Universal Name Generator — Wordlists accepts security vulnerability reports through responsible disclosure.
+
+For information on reporting security vulnerabilities, see the [Security Policy](./SECURITY.md).
 
 ## 💝 Helping out
 
