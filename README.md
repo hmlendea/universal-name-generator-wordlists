@@ -17,6 +17,7 @@ It is an assets-only repository. No application code is included here.
 - [Roadmap](#-roadmap)
 - [Contributing](#-contributing)
 - [Related Projects](#-related-projects)
+- [Privacy and Data](#-privacy-and-data)
 - [Helping out](#-helping-out)
 - [License](#-license)
 
@@ -96,6 +97,10 @@ See the [Contributing Guidelines](./CONTRIBUTING.md) for details on how to repor
 ## 🔗 Related Projects
 
 - [Universal Name Generator API](https://github.com/hmlendea/universal-name-generator-api): The API that consumes these datasets to generate names
+
+## 🛡️ Privacy and Data
+
+This repository is an assets-only collection of curated wordlist data files. No personal data is collected, processed, transmitted, or persisted by this repository. For the complete data-handling description, see [PRIVACY.md](./PRIVACY.md).
 
 ## 💝 Helping out
 
