@@ -91,10 +91,11 @@ Contributions are welcome, especially:
 
 See [ROADMAP.md](./ROADMAP.md) for planned work and forthcoming changes.
 
+See the [Contributing Guidelines](./CONTRIBUTING.md) for details on how to report issues, suggest enhancements, and submit changes.
+
 ## 🔗 Related Projects
 
 - [Universal Name Generator API](https://github.com/hmlendea/universal-name-generator-api): The API that consumes these datasets to generate names
-- [Universal Name Generator](https://github.com/hmlendea/universal-name-generator): The main project ecosystem entry point
 
 ## 💝 Helping out
 
